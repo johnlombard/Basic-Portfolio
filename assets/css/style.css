@@ -1,49 +1,108 @@
-html {
- background-color: red;
+
+header {
+    background-color: white;     
+    margin: 0 auto; 
+    position: absolute;
+    width: 100%;
+    clear: both;
+    top: 0;
+    overflow: hidden;
+    font-family: Georgia, Times, "Times New Roman", serif; 
+    
+    /* header background */
+
+    
 }
 
-header{
-    background-color: green;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 10%;
+
+.index-body {
+    background-image: url("/Users/John/Basic-Portfolio/oriental.png");
+    margin: 0 auto;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    /* background 
+    change URL*/
+    
+}
+
+.content {
+    background-color: white;
+    color: #777777;
+    margin: 0 auto;
+    width: 960px;
+    position: absolute;
+    top: 15%;
+    left: 23%;
+    right: 23%;
+    
+}
+
+#content-header {
+    color: #4aaaa5;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    padding-left: 7%;
+
+}
+
+.hr-links { 
+    display: inline;
+    size: 1px;
+    margin: 0 10px 0 5px; 
+    overflow: hidden;
+    /* lines between links */
+    
 }
 
 .head-name {
-    background-color: yellow;
-    width: 250px;
-    position: fixed;
-    top: 0;
-    left: 30px;
-    margin-top: 0;
-    margin-left: 10px;
-    height: 10%;
+    background-color: #4aaaa5; 
+    position: relative;
+    overflow: hidden;
+     top: 0;  
     text-align: center;
-    padding: 20px 0 0 0;
-    
-    
+    padding: 1% 0 1.05% 0;
+    width: 23%;
+    margin: 0 0 0 23%;
+    float: left;
+    font-size: 32px;
+    height: auto;
+    color: white;
+
+        /* Name heading */
+}
+
+.nav-links {
+    position: relative;
+    left: 45%;
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+    font-size: 18px;
+  /* links */
 }
 
 
 .links {
-    background-color: yellow;
-    text-decoration: none;
-    word-spacing: 30px;
-    padding: 30px;
-    position: fixed;
-    margin-right: 10px;
+    background-color:white;
+    position: relative;
+    overflow: hidden;
+    padding: 1.5% 0 1.4% 0;
     top: 0;
-    right: 0;
-    width: 25%;
+    width: 23%;
+    margin: 0 23% 0 0;
+    float: right;
+    /* links */
+
+
     
 }
 
-.index-body {
-    background-color: blue;
-    width: 960px;
-    margin: 100px auto 0 auto;
-    height: auto;
-    position: relative;
+#about, #contact, #portfolio {
+    text-decoration: none;
+    color: #777777s;
+    text-align: right;
+    
+
+}
+
+#hr-about {
+    width: 90%;
+    /* style this */
+
 }

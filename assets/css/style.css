@@ -70,6 +70,7 @@ header {
 }
 
 .nav-links {
+    
     position: relative;
     left: 45%;
     font-family: 'Georgia', Times, "Times New Roman", serif;
@@ -80,6 +81,7 @@ header {
 
 .links {
     background-color:white;
+    color: #777777;
     position: relative;
     overflow: hidden;
     padding: 1.5% 0 1.4% 0;
@@ -105,4 +107,20 @@ header {
     width: 90%;
     /* style this */
 
+}
+
+.content-img-p {
+    margin: 0 4% 0 4%;
+
+}
+
+#picture {
+    position: absolute;
+    left: 0;
+    
+}
+
+#information {
+    
+    display: inline;
 }

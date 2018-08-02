@@ -3,49 +3,73 @@
 
 <head>
     <title>John Lombard</title>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
     <header>
-        <h1 id="head-name">John Lombard</h1>
+        <div>
+            <h1 class="head-name">John Lombard</h1>
+        </div>
+
+
+
+        <div class="links">
+
+            <nav class="nav-links">
+                <a id="about" href="index.html">About</a>
+
+                <hr class="hr-links">
+
+                <a id="portfolio" href="portfolio.html">Portfolio</a>
+                <hr class="hr-links">
+
+                <a id="contact" href="contact.html">Contact</a>
+
+            </nav>
+
+        </div>
+
     </header>
 
-    <link  rel="stylesheet" href="assets/css/style.css">
-</head>
+    <body class="body-background" >
 
-<body>
-    <div class="links">
+        <div class="content" id="contact-body-background">
+            <div>
+                <h1 id="content-header">Contact</h1>
+            </div>
 
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
+            <hr id="hr-about">
 
-        <hr>
-    </div>
+            <form action="/submit-message" class="form-format">
 
+                
+                    <h6>Name</h6>
+                    <input type="text" placeholder="John Smith" id="input-name">
 
-    <div>
-        <h1>Contact</h1>
+                    <h6>Email</h6>
+                    <input type="text" placeholder="example@gmail.com" id="input-email">
 
-        <hr>
-
-        <form action="/submit-message">
-
-            <h6>Name</h6>
-            <input type="text" placeholder="John Smith">
-
-            <h6>Email</h6>
-            <input type="text" placeholder="example@gmail.com">
-
-            <h6>Message</h6>
-            <input type="text">
+                    <h6>Message</h6>
+                    <input type="text" id="input-message">
+                
+                    <br>
+                <button id="submit" type="submit">Submit</button>
+                <br>
 
 
-            <button type="submit">Submit</button>
+            </form>
 
-        </form>
+            
 
-
-
-    </div>
-</body>
+        </div>
+        
+    </body>
+ <br>
+    <div class="div-footer">
+            <footer id="footer">
+                <p>Copyright</p>
+            </footer>
+        </div>
 
 
 

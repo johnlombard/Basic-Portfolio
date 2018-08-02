@@ -1,126 +1,177 @@
-
+/* header begin */
 header {
-    background-color: white;     
-    margin: 0 auto; 
-    position: absolute;
-    width: 100%;
-    clear: both;
-    top: 0;
-    overflow: hidden;
-    font-family: Georgia, Times, "Times New Roman", serif; 
-    
-    /* header background */
-
-    
-}
-
-
-.index-body {
-    background-image: url("/Users/John/Basic-Portfolio/oriental.png");
-    margin: 0 auto;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    /* background 
-    change URL*/
-    
-}
-
-.content {
     background-color: white;
-    color: #777777;
-    margin: 0 auto;
-    width: 960px;
-    position: absolute;
-    top: 15%;
-    left: 23%;
-    right: 23%;
-    
-}
-
-#content-header {
-    color: #4aaaa5;
-    font-family: Georgia, Times, "Times New Roman", serif;
-    padding-left: 7%;
-
-}
-
-.hr-links { 
-    display: inline;
-    size: 1px;
-    margin: 0 10px 0 5px; 
+    clear: both;     
+    font-family: Georgia, Times, "Times New Roman", serif; 
+    margin: 0 auto; 
     overflow: hidden;
-    /* lines between links */
-    
+    position: absolute;
+    top: 0;
+    width: 100%;
+    /* header background */
 }
 
 .head-name {
     background-color: #4aaaa5; 
-    position: relative;
-    overflow: hidden;
-     top: 0;  
-    text-align: center;
-    padding: 1% 0 1.05% 0;
-    width: 23%;
-    margin: 0 0 0 23%;
+    color: white;
     float: left;
     font-size: 32px;
-    height: auto;
-    color: white;
+    margin: 0 0 0 23%;
+    padding: 1% 0 1.05% 0;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    top: 0;  
+    width: 23%;
 
         /* Name heading */
 }
-
-.nav-links {
-    
-    position: relative;
-    left: 45%;
-    font-family: 'Georgia', Times, "Times New Roman", serif;
-    font-size: 18px;
-  /* links */
-}
-
 
 .links {
     background-color:white;
     color: #777777;
     position: relative;
-    overflow: hidden;
     padding: 1.5% 0 1.4% 0;
     top: 0;
     width: 23%;
     margin: 0 23% 0 0;
     float: right;
     /* links */
-
-
-    
 }
 
 #about, #contact, #portfolio {
-    text-decoration: none;
-    color: #777777s;
+    color: #777777;
     text-align: right;
-    
-
+    text-decoration: none;
+    /* text desin of links */
 }
+
+.hr-links { 
+    display: inline;
+    margin: 0 10px 0 5px; 
+    overflow: hidden;
+    size: 1px;
+    /* lines between links */
+}
+
+.nav-links {
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+    font-size: 18px;
+    left: 45%;
+    position: relative;
+  /* links */
+}
+/* header end */
+
+
+
+/* background begin */
+.body-background {
+    background-image: url("/Users/John/Basic-Portfolio/oriental.png");
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    margin: 0 auto;
+    /* background 
+    change URL*/   
+}
+
+
+/* background end */
+
+/* content begin */
+.content {
+    background-color: white;
+    color: #777777;
+    left: 23%;
+    margin: 0 auto;
+    padding: 0 0 25% 0;
+    position: absolute;
+    top: 15%;
+    right: 23%;
+    width: 960px;
+}
+#contact-body-background {
+    height: 20%;
+}
+
+#content-header {
+    color: #4aaaa5;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    padding-left: 7%;
+    /* header in body */
+}
+
 
 #hr-about {
     width: 90%;
     /* style this */
-
 }
 
 .content-img-p {
     margin: 0 4% 0 4%;
-
-}
-
-#picture {
-    position: absolute;
-    left: 0;
-    
+    position: relative;  
 }
 
 #information {
-    
-    display: inline;
+    float: right;
+    position: absolute;
 }
+
+/* content end */
+
+
+/* Footer begin */
+.div-footer {
+    background-color: teal;
+    bottom: 0;
+    height: 65px;
+    position: fixed;
+    width: 100%;
+}
+
+#footer {
+    background-color: rgb(41, 40, 40);
+    color: white;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 10px;
+    margin: 10px 0 0 0;
+    padding: 10px 0 30px 0;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+/* Footer end */
+
+
+/* Contact Form formating */
+.form-format {
+    padding-left: 7%;
+    color: #777777;
+    font-size: 16px;
+}
+
+#input-name, #input-email, #input-message {
+    width: 90%;
+}
+h6 {
+    font-size: 16px;
+}
+
+#input-message {
+    height: 40%;
+    resize: vertical;
+    padding: 0 0 100px 0;
+    /* message format */
+}
+
+/* submit button */
+#submit {
+    background-color: teal;
+    border: solid 2px teal;
+    color: white;
+    font-size: 14px;
+    margin: 30px 0 10px 0;
+    padding: 5px 10px;
+}
+
+/* end of Contact form formating */

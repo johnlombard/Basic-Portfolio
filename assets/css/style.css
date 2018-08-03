@@ -1,30 +1,302 @@
-h1 {
-    color: #4aaaa5;
+/* header begin */
+header {
+    background-color: white;
+    clear: both;     
+    font-family: Georgia, Times, "Times New Roman", serif; 
+    margin: 0 auto; 
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    /* header background */
 }
 
+.head-name {
+    background-color: #4aaaa5; 
+    color: white;
+    float: left;
+    font-size: 32px;
+    margin: 0 0 0 23%;
+    padding: 1% 0 1.05% 0;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    top: 0;  
+    width: 23%;
 
-#head-name {
-    color: #ffffff;
-    background-color: #4aaaa5;
-    border-color: #4aaaa5;
-    border-radius: 10px;
-    padding: 5px;
-    width: 250px;
-}
-
-a{
-    text-decoration: none;
-   
+        /* Name heading */
 }
 
 .links {
+    background-color:white;
+    color: #777777;
+    position: relative;
+    padding: 1.5% 0 1.4% 0;
+    top: 0;
+    width: 23%;
+    margin: 0 23% 0 0;
+    float: right;
+    /* links */
+}
+
+#about, #contact, #portfolio {
+    color: #777777;
     text-align: right;
-    color: green;
     text-decoration: none;
-    word-spacing: 30px;
+    /* text desin of links */
+}
+
+.hr-links { 
+    display: inline;
+    margin: 0 10px 0 5px; 
+    overflow: hidden;
+    size: 1px;
+    /* lines between links */
+}
+
+.nav-links {
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+    font-size: 18px;
+    left: 45%;
+    position: relative;
+  /* links */
+}
+/* header end */
+
+
+
+/* background begin */
+.body-background {
+    background-image: url("../images/oriental.jpg");
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    margin: 0 auto;
+    /* background 
+    change URL*/   
 }
 
 
-p {
+/* background end */
 
+/* content begin */
+.content {
+    background-color: white;
+    color: #777777;
+    left: 23%;
+    margin: 0 auto;
+    padding: 0 0 25% 0;
+    position: absolute;
+    top: 15%;
+    right: 23%;
+    width: 960px;
 }
+#contact-body-background {
+    float: left;
+    position: fixed;
+    height: 30%;
+    z-index: 1;
+    
+    
+}
+
+#content-header {
+    color: #4aaaa5;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    padding-left: 7%;
+    /* header in body */
+}
+
+
+#hr-about {
+    width: 90%;
+    /* style this */
+}
+
+.content-img-p {
+    margin: 0 4% 0 4%;
+    position: relative;  
+}
+
+#information {
+    float: right;
+    position: absolute;
+    line-height: 25px;
+}
+
+#picture {
+    float: left;
+    width: 25%;
+    margin-right: 25px;
+}
+
+#about-me-info1::after {
+    content: "";
+    display: table;
+   visibility: hidden;
+   float: right;
+}
+
+
+/* content end */
+
+
+/* Footer begin */
+.div-footer {
+    background-color: teal;
+    bottom: 0;
+    height: 65px;
+    position: fixed;
+    width: 100%;
+    left: 0;
+}
+
+#footer {
+    background-color: rgb(41, 40, 40);
+    color: white;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 10px;
+    margin: 10px 0 0 0;
+    padding: 10px 0 30px 0;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+#footer-portfolio {
+    background-color: rgb(41, 40, 40);
+    color: white;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 10px;
+    margin: 10px 0 0 0;
+    padding: 10px 0 30px 0;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    left: 0;
+    
+}
+
+/* Footer end */
+
+
+/* Contact Form formating */
+.form-format {
+    padding-left: 7%;
+    color: #777777;
+    font-size: 16px;
+}
+
+#input-name, #input-email, #input-message {
+    width: 90%;
+}
+h6 {
+    font-size: 16px;
+}
+
+#input-message {
+    height: 40%;
+    resize: vertical;
+    padding: 0 0 100px 0;
+    position: relative;
+    /* message format */
+}
+
+/* submit button */
+#submit {
+    background-color: teal;
+    border: solid 2px teal;
+    color: white;
+    font-size: 14px;
+    margin: 30px 0 10px 0;
+    padding: 5px 10px;
+    position: relative;
+}
+
+/* end of Contact form formating */
+
+
+
+
+/* Portfolio */
+
+.image-text {
+    height: 40px;
+    width: 200px;
+    background-color: #4aaaa5;
+    margin: 150px 0 0 25px;
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+    
+    position: relative;
+}
+
+#portfolio-pic1 {
+    background-image: url(../images/Finance-PHOTO-1030x687.jpg);
+    background-size: cover;
+    background-position: center;
+    display: inline;
+    float:left;
+    margin: 0 15px 30px 25px;
+    width: 250px;
+}
+
+#portfolio-pic2 {
+    background-image: url(../images/designbig.jpg);
+    background-size: cover;
+    background-position: center;
+    display: inline;
+    float: left;
+    margin: 0 15px 30px 0;
+    width: 250px;
+}
+
+#portfolio-pic3 {
+    background-image: url(../images/game.png);
+    background-size: cover;
+    background-position: center;
+    display: inline;
+    float:left;
+    margin: 0 15px 30px 0;
+    width: 250px;
+}
+
+#portfolio-pic4 {
+    background-image: url(../images/health.jpg);
+    background-size: cover;
+    background-position: center;
+    display: inline;
+    float:left;
+    margin: 0 15px 30px 25px;
+    width: 250px;
+}
+
+#portfolio-pic5 {
+    background-image: url(../images/photography.jpg);
+    background-size: cover;
+    background-position: center;
+    display: inline;
+    float:left;
+    margin: 0 15px 30px 0;
+    width: 250px;
+}
+
+
+/* To Do:
+-Index
+    -Change photo
+    -place photo within text
+    -push text
+
+-Portfolio
+    -body
+    -Text over pictures
+    -Format pictures 
+
+-Contact
+    -
+
+
+
+
+
+*/
